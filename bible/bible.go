@@ -3,13 +3,14 @@ package main
 import (
 	"database/sql"
 	"encoding/xml"
-	_ "github.com/mattn/go-sqlite3"
 	"io"
 	"log"
 	"os"
 	"strconv"
 	"strings"
 	"unicode/utf8"
+
+	_ "github.com/mattn/go-sqlite3"
 )
 
 var (

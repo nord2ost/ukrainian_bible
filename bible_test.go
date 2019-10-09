@@ -3,9 +3,10 @@ package english_bible_test
 import (
 	"database/sql"
 	"encoding/json"
+	"testing"
+
 	"github.com/brianglass/english_bible"
 	_ "github.com/mattn/go-sqlite3"
-	"testing"
 )
 
 func TestScriptureLookup(t *testing.T) {
